@@ -51,9 +51,6 @@ function add(num1,num2){
 }
 console.log(add(bango1,bango2));
 
-
-
-
 /*
  * #3
  * Function - subtract
@@ -67,7 +64,11 @@ console.log(add(bango1,bango2));
  * Invoke the function and assign it to a variable named `difference`.
  * Console.log `difference` to test your code.
 */ 
-
+function subtract(num1,num2){
+	var difference = num1 - num2;
+	return difference;
+}
+console.log(subtract(bango1,bango2));
 
 
 /*
