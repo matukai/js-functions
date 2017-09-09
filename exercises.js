@@ -90,8 +90,6 @@ function multiply(num1,num2){
 }
 console.log(multiply(bango1,bango2));
 
-
-
 /*
  * #5
  * Function - divide
@@ -105,7 +103,11 @@ console.log(multiply(bango1,bango2));
  * Invoke the function and assign it to a variable named `quotient`.
  * Console.log `quotient` to test your code.
 */
-
+function divide(num1,num2){
+	var quotient = num1 / num2;
+	return quotient;
+}
+console.log(divide(bango1,bango2));
 
 
 /*
