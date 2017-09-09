@@ -122,6 +122,10 @@ console.log(divide(bango1,bango2));
  * Console.log your result.
 */
 
+function checkSum(x){
+	return "Mariah Carey has been married " + x + " amount of times"
+}
+console.log(checkSum(5));
 
 
 /*
