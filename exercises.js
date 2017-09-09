@@ -49,8 +49,9 @@ function add(num1,num2){
 	var sum = num1 + num2;
 	return sum;
 }
-console.log(add(bango1,bango2));
 
+var sum = add(bango1,bango2);
+console.log(sum);
 /*
  * #3
  * Function - subtract
@@ -88,7 +89,8 @@ function multiply(num1,num2){
 	var product = num1 * num2;
 	return product;
 }
-console.log(multiply(bango1,bango2));
+var product = multiply(bango1,bango2)
+console.log(product);
 
 /*
  * #5
@@ -107,7 +109,8 @@ function divide(num1,num2){
 	var quotient = num1 / num2;
 	return quotient;
 }
-console.log(divide(bango1,bango2));
+var quotient = divide(bango1,bango2);
+console.log(quotient);
 
 
 /*
@@ -155,6 +158,10 @@ console.log(checkDifference(12));
  * This function will multiply the values stored in the sum and product variables.
  * Console.log your result.  
 */
+function checkProduct(){
+return sum * product;
+}
+console.log(checkProduct());
 
 
 
@@ -168,6 +175,10 @@ console.log(checkDifference(12));
  * This function will multiply the values stored in the product and quotient variables.
  * Console.log your result.  
 */
+function checkQuotient(){
+return product * quotient;
+}
+console.log(checkQuotient());
 
 
 
