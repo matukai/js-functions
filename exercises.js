@@ -247,6 +247,12 @@ console.log(multiplyThenDivide(bango3,bango4,bango5));
 
 
 
+function createFullName (firstName,lastName) {
+	return firstName + " " + lastName;
+}
+var myFullName = createFullName("Your","Mom");
+console.log("My name is: " + myFullName);
+
 /*
  * #13 
  * Function - eatFood
@@ -260,7 +266,11 @@ console.log(multiplyThenDivide(bango3,bango4,bango5));
  * This function will use the previous `createFullName` function above to create a message. For example, if you invoked the function like this: eatFood("Biggie", "Smalls", "Won Ton Soup"); it will display the message "Biggie Smalls eats Won Ton Soup everyday for breakfast."
  * Console.log your result.
  */
-
+ 
+ function eatFood (firstName,lastName,food){
+ 	return createFullName(firstName,lastName) + " likes to eat " + food;
+ }
+console.log(eatFood("Biggie", "Smalls", "Won Ton"));
 
 
 /************** ENGAGE HYPERDRIVE **************/
